@@ -29,3 +29,13 @@ docker file es un controlador de imagenes de docker de forma personalizada
 `WORKDIR`se crea una carpte dentro del contenedor como home tu le indicas ,ahora desde se correra run ,cmd entrypoint / raiz (linuz)
 
 `ONBUILD`
+
+## Creacion de un Dockerfile
+Se crea un archivo con el nombre Dockerfile tambien puede usar esta sintansis al crear dockerfile , Dockerfile.test1 o Dockerfile.test1 .
+
+## Comandos
+Una ves creado el archivo con los diferentes parametros corremos el siguiente comando 
+
+
+
+
