@@ -12,7 +12,7 @@ docker file es un controlador de imagenes de docker de forma personalizada
 
 `ENTRYPOINT`Tambien es un comando pero es persistente no se puede cambiar este comando se realiza al ejecutar el contenedor y la mayoria de las beses se usa ejecutar algun aplicativo tercer plano,o poner algo persistente como las variables de entorno en un scrip(usar alguna ejecutivo desde contenedo u otros uso)
 
-`COPY`Se utiliza para copiar archivos al contenedor cabe destarcar que se necesita una fuente:destino (<src>...<dst>).ADD es mas potente que copi ya que permite copiar desde una URL, incluso si src es un archivo comprimod lo descomprime en el destino
+`COPY/ADD`Se utiliza para copiar archivos al contenedor cabe destarcar que se necesita una fuente:destino ADD es mas potente que copi ya que permite copiar desde una URL, incluso si src es un archivo comprimod lo descomprime en el destino
 
 `ENV`variables de entorno como usuario bases de datos , entre otras depende del programa
 
