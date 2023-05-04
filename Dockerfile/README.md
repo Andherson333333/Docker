@@ -33,8 +33,43 @@ docker file es un controlador de imagenes de docker de forma personalizada
 ## Creacion de un Dockerfile
 Se crea un archivo con el nombre Dockerfile tambien puede usar esta sintansis al crear dockerfile , Dockerfile.test1 o Dockerfile.test1 .
 
+```
+lsb_release -a
+```
+
+![Diagrama]()
+
+## Contenido dentro del archivo Dockerfile
+
+Como ya sabemos los parametros bases y sus usos solo tenemos que realizarlo segun lo que necesitemos 
+
+```
+lsb_release -a
+```
+
+![Diagrama]()
+
+
 ## Comandos
 Una ves creado el archivo con los diferentes parametros corremos el siguiente comando 
+
+```
+lsb_release -a
+```
+![Diagrama]()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
