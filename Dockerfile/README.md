@@ -20,21 +20,19 @@ docker file es un controlador de imagenes de docker de forma personalizada
 
 `LABEL`son etiquetas para el contenedor se puede usar para personalizar no son necesarias funcionan con Las etiquetas son un mecanismo para aplicar metadatos a los objetos de Docker
 
-`STOPSIGNAL`
-
 `USER`establece el UID (o nombre de usuario) que debe ejecutar el contenedor
 
-`VOLUME`
+`VOLUME`es un mecanismo que permite persistir datos y compartirlos entre contenedores. Los volúmenes son una forma de almacenamiento duradero que no está vinculada directamente al ciclo de vida de un contenedor
 
 `WORKDIR`se crea una carpte dentro del contenedor como home tu le indicas ,ahora desde se correra run ,cmd entrypoint / raiz (linuz)
 
-`ONBUILD`
+Cabe destacar que esta no son todas las opciones pero son las mas utilizadas por el momento
 
 ## Creacion de un Dockerfile
 Se crea un archivo con el nombre Dockerfile tambien puede usar esta sintansis al crear dockerfile , Dockerfile.test1 o Dockerfile.test1 .
 
 ```
-lsb_release -a
+touch Dockerfile
 ```
 
 ![Diagrama]()
@@ -43,18 +41,16 @@ lsb_release -a
 
 Como ya sabemos los parametros bases y sus usos solo tenemos que realizarlo segun lo que necesitemos 
 
-```
-lsb_release -a
-```
-
 ![Diagrama]()
 
 
 ## Comandos
 Una ves creado el archivo con los diferentes parametros corremos el siguiente comando 
 
+docker build -t nombre_de_la_imagen:etiqueta -f ruta/al/Dockerfile directorio_de_contexto
+
 ```
-lsb_release -a
+docker build -t mi-imagen:1.0 -f /ruta/al/Dockerfile /directorio/de/contexto
 ```
 ![Diagrama]()
 
