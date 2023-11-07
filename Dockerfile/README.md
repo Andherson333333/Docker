@@ -71,7 +71,7 @@ Ahora una ves creada la imagen para verificar la creacion se usa el siguiente co
 docker images
 ```
 
-![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/dockerfile-ls.JPG)
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/dockerfile-images.JPG)
 
 
 
