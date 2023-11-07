@@ -33,9 +33,9 @@ docker-compose --version
 Una ves instalado se puede verificar con este comando
 
 ```
-docker --version
+docker-compose --version
 ```
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Docker-compose/imagenes/dockerCompose-version.JPG)
 
 <a name="item4"></a>
 ##  Estructura de un docker-compose
@@ -67,7 +67,7 @@ docker --version
 la nomeclatura para crear un archivo docker-compose son las siguientes: (termina en yaml o yml)
 -  docker-compose.yml
 -  docker-compose.override.yml
-  `Nombre personalizado` También puedes usar un nombre de archivo personalizado, pero deberás especificarlo al usar el comando docker-compose con la opción -f o --file. Por ejemplo, docker-compose -f mi-archivo-compose.yml.
+-   `Nombre personalizado` También puedes usar un nombre de archivo personalizado, pero deberás especificarlo al usar el comando docker-compose con la opción -f o --file. Por ejemplo, docker-compose -f mi-archivo-compose.yml.
 
 ```
 touch docker-compose.yml
