@@ -35,13 +35,13 @@ Se crea un archivo con el nombre Dockerfile tambien puede usar esta sintansis al
 touch Dockerfile
 ```
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/dockerfile-ls.JPG)
 
 ## Contenido dentro del archivo Dockerfile
 
 Como ya sabemos los parametros bases y sus usos solo tenemos que realizarlo segun lo que necesitemos 
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/dockerfile-cat.JPG)
 
 
 ## Comandos
@@ -50,9 +50,9 @@ Una ves creado el archivo con los diferentes parametros corremos el siguiente co
 docker build -t nombre_de_la_imagen:etiqueta -f ruta/al/Dockerfile directorio_de_contexto
 
 ```
-docker build -t mi-nginx:1.0 -f Dockerfile .
+ docker build -t alpine-mysql:1.0 -f Dockerfile . .
 ```
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/Dockerfile-build.JPG)
 
 
 
