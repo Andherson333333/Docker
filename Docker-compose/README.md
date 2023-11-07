@@ -4,8 +4,8 @@
 * [Verificacion de instalacion](#item3)
 * [Estructura de un docker-compose](#item4)
 * [Creacion de un archivo compose](#item5)
-* [Verificacion de instalacion](#item4)
-
+* [Ejecucion de un docker-compose](#item6)
+* [Verificacion de ejecucion container](#item7)
 
 <a name="item1"></a>
 ##  Docker compose
@@ -26,8 +26,6 @@ sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
-
-
 
 <a name="item3"></a>
 ##  Verificacion de instalacion
@@ -74,19 +72,26 @@ la nomeclatura para crear un archivo docker-compose son las siguientes: (termina
 ```
 touch docker-compose.yml
 ```
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Docker-compose/imagenes/dockercompose-cat.JPG)
 
+<a name="item6"></a>
 ##   Ejecucion de un docker-compose
 Una ves creado se ejecuta con el siguiente comando:
 
 ```
 docker-compose up -d
 ```
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Docker-compose/imagenes/dockercompose-up.JPG)
 
+<a name="item7"></a>
+## Verificacion de ejecucion container
 
-## 
+Para verificar si el container esta funcionando 
 
-
+```
+docker ps
+```
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Docker-compose/imagenes/dockercompose-ps.JPG)
 
 
 
