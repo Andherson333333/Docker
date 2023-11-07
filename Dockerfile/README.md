@@ -50,7 +50,7 @@ Una ves creado el archivo con los diferentes parametros corremos el siguiente co
 docker build -t nombre_de_la_imagen:etiqueta -f ruta/al/Dockerfile directorio_de_contexto
 
 ```
-docker build -t mi-imagen:1.0 -f /ruta/al/Dockerfile /directorio/de/contexto
+docker build -t mi-nginx:1.0 -f Dockerfile .
 ```
 ![Diagrama]()
 
