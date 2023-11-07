@@ -1,3 +1,11 @@
+## Índice de contenidos
+* [¿Que es un dockerfile?](#item1)
+* [Creacion de un Dockerfile](#item2)
+* [Contenido dentro del archivo Dockerfile](#item3)
+* [Construcion de la imagen](#item4)
+* [Construcion de la imagen](#item5)
+
+<a name="item1"></a>
 ## ¿Que es un dockerfile?
 
 docker file es un controlador de imagenes de docker de forma personalizada 
@@ -28,6 +36,7 @@ docker file es un controlador de imagenes de docker de forma personalizada
 
 Cabe destacar que esta no son todas las opciones pero son las mas utilizadas por el momento
 
+<a name="item2"></a>
 ## Creacion de un Dockerfile
 Se crea un archivo con el nombre Dockerfile tambien puede usar esta sintansis al crear dockerfile , Dockerfile.test1 o Dockerfile.test1 .
 
@@ -37,14 +46,15 @@ touch Dockerfile
 
 ![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/dockerfile-ls.JPG)
 
+<a name="item3"></a>
 ## Contenido dentro del archivo Dockerfile
 
 Como ya sabemos los parametros bases y sus usos solo tenemos que realizarlo segun lo que necesitemos 
 
 ![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/dockerfile-cat.JPG)
 
-
-## Comandos
+<a name="item4"></a>
+## Construcion de la imagen
 Una ves creado el archivo con los diferentes parametros corremos el siguiente comando 
 
 docker build -t nombre_de_la_imagen:etiqueta -f ruta/al/Dockerfile directorio_de_contexto
@@ -54,6 +64,14 @@ docker build -t nombre_de_la_imagen:etiqueta -f ruta/al/Dockerfile directorio_de
 ```
 ![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/Dockerfile-build.JPG)
 
+## Verificacion de la imagen
+Ahora una ves creada la imagen para verificar la creacion se usa el siguiente comando
+
+```
+docker images
+```
+
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Dockerfile/imagenes/dockerfile-ls.JPG)
 
 
 
