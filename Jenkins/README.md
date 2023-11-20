@@ -1,3 +1,12 @@
+## Índice de contenidos
+* [Instalacion de jenkins](#item1)
+* [Ventajas y desventajase](#item2)
+* [Configuracion Dockerfile](#item3)
+* [Ejecucion del contenedor en docker](#item4)
+* [Manejos de plugin](#item5)
+*
+
+<a name="item1"></a>
 # Instalacion de jenkins
 
 Hay 2 formas de instalar jenkins:
@@ -6,7 +15,8 @@ Hay 2 formas de instalar jenkins:
    https://www.jenkins.io/doc/book/installing/linux/ 
 
    2)Instalacion con docker , para realizar esta instalacion vamos hacerlo a traves de un dockerfile ya que puedes personalizar un poco     mas la instalacion en funcion a los que necesites 
-
+   
+<a name="item2"></a>
 # Ventajas y desventajas 
 
 ### Ventajas:
@@ -30,6 +40,7 @@ Hay 2 formas de instalar jenkins:
 
 `Rendimiento`Aunque Docker introduce una sobrecarga mínima, puede haber una pequeña pérdida de rendimiento en comparación con una instalación directa en el sistema operativo anfitrión.
 
+<a name="item3"></a>
 # Configuracion Dockerfile 
 
 Antes de contruir tiene que buscar la imagen base , puedes instalar diferentes S.O como:
@@ -58,6 +69,7 @@ sudo docker images
 ```
 ![Diagrama]()
 
+<a name="item4"></a>
 # Ejecucion del contenedor en docker
 
 Se puede hacer de 2 formas :
@@ -84,6 +96,7 @@ docker logs -f <ID>
    
 Si tienes la instalacion del complemento compose de docker antes de aplicar
 
+<a name="item5"></a>
 # Manejos de plugin
 
 Si desea un manejor de plugin mas controlado e informativo lo puedes hacer agregando un archivo a su dockerfile
