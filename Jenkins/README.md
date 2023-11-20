@@ -9,7 +9,7 @@ Hay 2 formas de instalar jenkins:
 
 # Ventajas y desventajas 
 
-Ventajas:
+### Ventajas:
 
 `Facilidad de Implementación` Docker simplifica el proceso de instalación y despliegue de Jenkins. Puedes configurar Jenkins con Docker en minutos.
 
@@ -20,6 +20,17 @@ Ventajas:
 `Escalabilidad `Docker permite escalar contenedores según sea necesario. Puedes ejecutar múltiples instancias de Jenkins de manera eficiente y equilibrar la carga.
 
 `Gestión de Recursos `Docker permite gestionar eficientemente los recursos asignados a Jenkins, como CPU y memoria.
+
+
+### Desventajas:
+
+`Complejidad de Red `Configurar correctamente la red puede ser un desafío, especialmente si Jenkins necesita interactuar con otros contenedores o servicios en la red.
+
+`Seguridad` Configurar la seguridad de Jenkins dentro de un contenedor Docker requiere una atención especial para garantizar que la instancia de Jenkins sea segura y no se vea comprometida.
+
+`Rendimiento`Aunque Docker introduce una sobrecarga mínima, puede haber una pequeña pérdida de rendimiento en comparación con una instalación directa en el sistema operativo anfitrión.
+
+
 
 
 
