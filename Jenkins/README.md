@@ -63,11 +63,12 @@ Se puede hacer de 2 formas :
    1)A traves de comandos 
 
  ```
-lsb_release -a
+sudo docker run -p 8080:8080 -d  -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins:2.426.1-lts-jdk17
 ```
 
    2)A traves de docker-compose
-
+   
+Si tienes la instalacion del complemento compose de docker antes de aplicar
 
 
 
