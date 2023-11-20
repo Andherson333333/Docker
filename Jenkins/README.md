@@ -67,8 +67,20 @@ sudo docker run -p 8080:8080 -d  -v jenkins_home:/var/jenkins_home -v /var/run/d
 ```
 
    2)A traves de docker-compose
+
+ ```
+sudo docker images
+```
    
 Si tienes la instalacion del complemento compose de docker antes de aplicar
+
+# Manejos de plugin
+
+Si desea un manejor de plugin mas controlado e informativo lo puedes hacer agregando un archivo a su dockerfile
+
+1)Como ver mis plugin
+2)Archivo plugin
+
 
 
 
