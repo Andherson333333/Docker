@@ -74,6 +74,12 @@ sudo docker run -p 8080:8080 -d  -v jenkins_home:/var/jenkins_home -v /var/run/d
  ```
 sudo docker images
 ```
+3)Una ves desplegado el contenedor lanze este comando para ver la clave de jenkins
+
+ ```
+docker logs -f <ID>
+```
+
 ![Diagrama]()
    
 Si tienes la instalacion del complemento compose de docker antes de aplicar
