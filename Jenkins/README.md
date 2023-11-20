@@ -60,14 +60,14 @@ touch dockerfile
 ```
 sudo docker build -t jenkins:2.426.1-lts-jdk17 .
 ```
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Jenkins/imagenes/Captura%20desde%202023-11-20%2001-27-13.png)
 
 3)Verificacion de la imagen
 
 ```
 sudo docker images
 ```
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Jenkins/imagenes/Captura%20desde%202023-11-20%2001-29-49.png)
 
 <a name="item4"></a>
 # Ejecucion del contenedor en docker
@@ -79,13 +79,15 @@ Se puede hacer de 2 formas :
  ```
 sudo docker run -p 8080:8080 -d  -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins:2.426.1-lts-jdk17
 ```
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Jenkins/imagenes/Captura%20desde%202023-11-20%2001-31-08.png)
 
    2)A traves de docker-compose
 
  ```
 sudo docker images
 ```
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Jenkins/imagenes/Captura%20desde%202023-11-20%2001-39-10.png)
+
 3)Una ves desplegado el contenedor lanze este comando para ver la clave de jenkins
 
  ```
@@ -114,7 +116,7 @@ Jenkins.instance.pluginManager.plugins.each { plugin ->
 }
 
 ```
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Jenkins/imagenes/jenkins-plugin1.png)
 
 
 
