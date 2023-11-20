@@ -91,10 +91,9 @@ sudo docker images
 3)Una ves desplegado el contenedor lanze este comando para ver la clave de jenkins
 
  ```
-docker logs -f <ID>
+sudo docker-compose up -d
 ```
 
-![Diagrama]()
    
 Si tienes la instalacion del complemento compose de docker antes de aplicar
 
