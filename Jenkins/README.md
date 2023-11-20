@@ -30,6 +30,36 @@ Hay 2 formas de instalar jenkins:
 
 `Rendimiento`Aunque Docker introduce una sobrecarga mínima, puede haber una pequeña pérdida de rendimiento en comparación con una instalación directa en el sistema operativo anfitrión.
 
+# Configuracion Dockerfile 
+
+Antes de contruir tiene que buscar la imagen base , puedes instalar diferentes S.O como:
+
+`Alpine` La instalacion de paquetes se hace comando apk add
+`Debian` La instalacion de paquetes se hace comando apt-get
+
+1)Una ves elegida crearemos el dockerfile
+
+2)Una ves creado vamos a construir la imagen
+
+3)Verificacion de la imagen
+
+# Ejecucion del contenedor en docker
+
+Se puede hacer de 2 formas :
+
+   1)A traves de comandos 
+
+   2)A traves de docker-compose
+
+
+
+
+
+
+
+
+
+
 
 
 
