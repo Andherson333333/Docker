@@ -35,6 +35,7 @@ Hay 2 formas de instalar jenkins:
 Antes de contruir tiene que buscar la imagen base , puedes instalar diferentes S.O como:
 
 `Alpine` La instalacion de paquetes se hace comando apk add
+
 `Debian` La instalacion de paquetes se hace comando apt-get
 
 1)Una ves elegida crearemos el dockerfile
