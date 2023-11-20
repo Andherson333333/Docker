@@ -8,5 +8,6 @@ En este repositorio de GitHub, exploramos la utilización de Docker y sus herram
 Vamos a divirilo en 2 partes:
 
 1 Una breve descripcion del uso dockerfile,docker-compose
+
 2 Ya el despligue y uso diferentes herramientas y aplicativos con docker
 
