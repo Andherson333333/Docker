@@ -4,7 +4,7 @@
 * [Configuracion Dockerfile](#item3)
 * [Ejecucion del contenedor en docker](#item4)
 * [Manejos de plugin](#item5)
-*
+
 
 <a name="item1"></a>
 # Instalacion de jenkins
@@ -119,15 +119,13 @@ Jenkins.instance.pluginManager.plugins.each { plugin ->
 ![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Jenkins/imagenes/jenkins-plugin1.png)
 
 
-
 2)Archivo plugin
 
 Usaremos una arquitectura de archivos como esta 
 
-![Diagrama]()
-
 Creamos el archivo plugin.txt y anesamos la lista de nuestros plugin , una ves realizado reconstruimos nuestra imagen de nuevo con los plugin personalizados
 
+Luego le daremos instalar plugin manualmente les saldra los que estan en la lista marcados
 
 
 
