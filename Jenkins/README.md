@@ -40,15 +40,31 @@ Antes de contruir tiene que buscar la imagen base , puedes instalar diferentes S
 
 1)Una ves elegida crearemos el dockerfile
 
-2)Una ves creado vamos a construir la imagen
+```
+touch dockerfile
+```
+
+2)Una ves creado vamos a construir la imagen ,vamos agregarle un tag para que sea facil ver la version de nuestro jenkins
+
+```
+sudo docker build -t jenkins:2.426.1-lts-jdk17 .
+```
 
 3)Verificacion de la imagen
+
+```
+sudo docker images
+```
 
 # Ejecucion del contenedor en docker
 
 Se puede hacer de 2 formas :
 
    1)A traves de comandos 
+
+ ```
+lsb_release -a
+```
 
    2)A traves de docker-compose
 
