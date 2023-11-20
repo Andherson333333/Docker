@@ -49,12 +49,14 @@ touch dockerfile
 ```
 sudo docker build -t jenkins:2.426.1-lts-jdk17 .
 ```
+![Diagrama]()
 
 3)Verificacion de la imagen
 
 ```
 sudo docker images
 ```
+![Diagrama]()
 
 # Ejecucion del contenedor en docker
 
@@ -65,12 +67,14 @@ Se puede hacer de 2 formas :
  ```
 sudo docker run -p 8080:8080 -d  -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins:2.426.1-lts-jdk17
 ```
+![Diagrama]()
 
    2)A traves de docker-compose
 
  ```
 sudo docker images
 ```
+![Diagrama]()
    
 Si tienes la instalacion del complemento compose de docker antes de aplicar
 
@@ -79,7 +83,33 @@ Si tienes la instalacion del complemento compose de docker antes de aplicar
 Si desea un manejor de plugin mas controlado e informativo lo puedes hacer agregando un archivo a su dockerfile
 
 1)Como ver mis plugin
+
+Estando en su GUI de jenkins , valla a la siguiente zona :
+Manage Jenkins-->Script Console
+
+Copie y pegue la siguiente orden en su consola:
+
+ ```
+Jenkins.instance.pluginManager.plugins.each { plugin ->
+    println("${plugin.getShortName()}:${plugin.getVersion()}")
+}
+
+```
+![Diagrama]()
+
+
+
 2)Archivo plugin
+
+Usaremos una arquitectura de archivos como esta 
+
+├── Dockerfile
+├── plugins.txt
+├── jenkins-configuration.yaml
+└── seedjob.groovy
+
+Creamos el archivo plugin.txt y anesamos la lista de nuestros plugin , una ves realizado reconstruimos nuestra imagen de nuevo con los plugin personalizados
+
 
 
 
