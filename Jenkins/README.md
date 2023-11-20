@@ -103,10 +103,7 @@ Jenkins.instance.pluginManager.plugins.each { plugin ->
 
 Usaremos una arquitectura de archivos como esta 
 
-├── Dockerfile
-├── plugins.txt
-├── jenkins-configuration.yaml
-└── seedjob.groovy
+![Diagrama]()
 
 Creamos el archivo plugin.txt y anesamos la lista de nuestros plugin , una ves realizado reconstruimos nuestra imagen de nuevo con los plugin personalizados
 
