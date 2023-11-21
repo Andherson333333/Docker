@@ -41,6 +41,14 @@ Es crucial comprender qué función desempeñan los distintos archivos dentro de
 
 `/etc/nginx/nginx.conf` configuracion principal
 
+# Estructura para docker nginx  general
+
+
+
+
+
+
+
 
 
 
