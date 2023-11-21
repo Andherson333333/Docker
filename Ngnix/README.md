@@ -26,10 +26,21 @@ Funciones mas comunes :
 
 10)Configuración dinámica con recarga en caliente.
 
--Seguridad con protección contra ataques DDoS y otras amenazas.
+11)Seguridad con protección contra ataques DDoS y otras amenazas.
 
 
 # Ubicacion de archivos
+
+Es crucial comprender qué función desempeñan los distintos archivos dentro de su contenedor Nginx, así como conocer las ubicaciones específicas de estos archivos. Al entender estas funciones y localizaciones, podrá personalizar la configuración según sus necesidades, simplemente reemplazando los archivos correspondientes
+
+## Ubicacion importantes
+
+`/usr/share/nginx/html` sitio web estatico
+
+`/etc/nginx/conf.d` otras configraciones
+
+`/etc/nginx/nginx.conf` configuracion principal
+
 
 
 
