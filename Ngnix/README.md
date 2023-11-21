@@ -43,6 +43,10 @@ Es crucial comprender qué función desempeñan los distintos archivos dentro de
 
 # Estructura para docker nginx  general
 
+docker/
+├── dockerfile
+├── index.html
+└── nginx.conf
 
 
 
