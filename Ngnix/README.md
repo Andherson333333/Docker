@@ -57,7 +57,7 @@ Es crucial comprender qué función desempeñan los distintos archivos dentro de
 
 # Construir imagen
 
-Una vez configurados los archivos de intercambio, procedemos a colocar estos archivos en las ubicaciones correspondientes y generar la imagen utilizando un archivo Dockerfile. La instrucción clave en este proceso es COPY, la cual se utiliza para copiar archivos desde la máquina local al sistema de archivos de la imagen Docker.
+Una vez configurados los archivos de intercambio, procedemos a colocar estos archivos en las ubicaciones correspondientes y generar la imagen utilizando un archivo Dockerfile. La instrucción clave en este proceso es COPY/ADD, la cual se utiliza para copiar archivos desde la máquina local al sistema de archivos de la imagen Docker.
 
 
 
