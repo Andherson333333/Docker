@@ -30,7 +30,7 @@ services:
         - ./init.sh:/mnt/init.sh 
       command: ["sh", "-e", "/mnt/init.sh"]
   db:
-    image: postgres:12
+    image: postgres:13
     environment:
       POSTGRES_USER: sonar
       POSTGRES_PASSWORD: sonar
