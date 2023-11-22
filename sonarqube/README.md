@@ -22,9 +22,12 @@ mkdir -p ./postgresql/data
 
 ## Creacion init.sh
 
+Este script, denominado init.sh, se desarrolla para abordar una necesidad específica relacionada con SonarQube. Dado que SonarQube utiliza un Elasticsearch integrado, es esencial garantizar que la configuración del host Docker cumpla con los requisitos del modo de producción de Elasticsearch y las configuraciones de los descriptores de archivos.
+
+El propósito del script init.sh es realizar configuraciones específicas del kernel antes de iniciar SonarQube mediante Docker Compose. Estas configuraciones son fundamentales para satisfacer los requisitos de ciertas aplicaciones, como SonarQube, que pueden tener demandas particulares en cuanto al sistema operativo y el kernel.
+
 ## docker-compose
 
-
 ```
-touch dockerfile
+docker-compose up -d 
 ```
