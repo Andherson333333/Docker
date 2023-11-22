@@ -6,7 +6,7 @@ SonarQube es una plataforma de código abierto diseñada para evaluar y analizar
 
 ## Creacion Directorios
 
-`Nota` Cabe destacar que tiene un  `.` asi que modifique la ruta 
+Antes de iniciar el despliegue, es necesario crear los directorios que almacenarán los datos y configuraciones necesarios. Ten en cuenta que la ruta especificada en tu instrucción debe modificarse para reflejar correctamente la estructura de carpetas. Puedes usar:
 
 ```
 mkdir -p ./sonarqube/data
