@@ -8,16 +8,21 @@ SonarQube es una plataforma de código abierto diseñada para evaluar y analizar
 
 `Nota` Cabe destacar que tiene un  `.` asi que modifique la ruta 
 
+```
 mkdir -p ./sonarqube/data
+
 mkdir -p ./sonarqube/extensions
+
 mkdir -p ./sonarqube/logs
+
 mkdir -p ./postgresql/conf
+
 mkdir -p ./postgresql/data
+```
 
 ## Creacion init.sh
 
 ## docker-compose
-
 
 
 ```
