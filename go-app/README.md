@@ -4,22 +4,22 @@ Es una forma de escribir un dockerfile pero con varias etapas internamente en es
 
 ## Ventajas de multi-stage
 
- **La mayor ventaja este en 2 arias:**
-  Seguridad   
-  Reducion de tamaño de la imagen final 
+**La mayor ventaja este en 2 arias:**
+- Seguridad   
+- Reducion de tamaño de la imagen final 
 
 ## Forma de hacer un dockerfile multi-stage
 
 Generalmente son 2 etapas pero internamente se puede escribir las etapas que quieras:
 
-1)Indentificar las etapas
-1.1)Si la etapa no tiene ningun identificador empieza por 0 
+**1)Indentificar las etapas**
+- 1.1)Si la etapa no tiene ningun identificador empieza por 0 
 from=0
-1.2)Identificador por tag se puede agregar un tag luego del from 
+- 1.2)Identificador por tag se puede agregar un tag luego del from 
 from nginx As (tag)
 
-2)Copiar de 1 etapa a otra lo que necesito
-Luego copiar el resultado de la etapa anterior , para copiarlo se usa el tag de la etapa anterior y la linea
+**2)Copiar de 1 etapa a otra lo que necesito**
+- Luego copiar el resultado de la etapa anterior , para copiarlo se usa el tag de la etapa anterior y la linea
 COPY --from=builder 
 
 
