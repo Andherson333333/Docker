@@ -20,7 +20,7 @@ from nginx As (tag)
 
 **2)Copiar de 1 etapa a otra lo que necesito**
   - Luego copiar el resultado de la etapa anterior , para copiarlo se usa el tag de la etapa anterior y la linea
-COPY --from=builder 
+COPY --from=tag 
 
 
 #Estructura go
