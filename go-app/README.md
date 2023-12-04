@@ -1,8 +1,8 @@
 # Uso de este repositorio
 
 **Hay 2 dockerfile**
-    Dockerfile-1 : sin estructura
-    Dockerfile-2 : con estructura
+    - Dockerfile-1 : sin estructura
+    - Dockerfile-2 : con estructura
 
 
 # Que es multi-stage
