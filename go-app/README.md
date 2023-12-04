@@ -4,9 +4,9 @@ Es una forma de escribir un dockerfile pero con varias etapas internamente en es
 
 ## Ventajas de multi-stage
 
- **La mayor ventaja este en 2 arias :**
- Seguridad   
- Reducion de tamaño de la imagen final 
+ **La mayor ventaja este en 2 arias:**
+  Seguridad   
+  Reducion de tamaño de la imagen final 
 
 ## Forma de hacer un dockerfile multi-stage
 
