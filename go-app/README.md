@@ -1,3 +1,10 @@
+# Uso de este repositorio
+
+**Hay 2 dockerfile**
+  Dockerfile-1 : sin estructura
+  Dockerfile-2 : con estructura
+
+
 # Que es multi-stage
 
 Es una forma de escribir un dockerfile pero con varias etapas internamente en este dockerfile. Esto se hace con el fin de optimizar el peso final de la imagen para despligue mas rapidos 
@@ -25,5 +32,7 @@ COPY --from=tag
 
 #Estructura go
 
-![Diagrama]()
+Go no tiene un estructura definida pero la estructura mas comun es la siguiente:
+
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/go-app/go.JPG)
 
