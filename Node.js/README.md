@@ -19,7 +19,9 @@ Node.js es un entorno de ejecución de código abierto basado en el motor V8 de 
 
 docker file es un controlador de imagenes de docker de forma personalizada
 
-Este Dockerfile consta de dos etapas: una "etapa de construcción" y una "etapa de producción". Esta es una práctica común en Docker para reducir el tamaño final de la imagen y eliminar dependencias no necesarias en la etapa de producción
+Este Dockerfile consta de dos etapas: una "etapa de construcción" y una "etapa de producción". Esta es una práctica común en Docker para reducir el tamaño final de la imagen y eliminar dependencias no necesarias en la etapa de producción. Con el siguiente comando creamos la imagen del container
+
+```docker build -t node:test . ```
 
 ![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Node.js/Imagenes/docker-2.PNG)
 
@@ -27,5 +29,7 @@ Este Dockerfile consta de dos etapas: una "etapa de construcción" y una "etapa 
 # Docker-compose
 
 Para desplegarlo el aplicativo se realiza a traves de un docker-compose
+
+```docker-compose up ```
 
 ![Diagrama]()
