@@ -21,7 +21,7 @@ docker file es un controlador de imagenes de docker de forma personalizada
 
 Este Dockerfile consta de dos etapas: una "etapa de construcción" y una "etapa de producción". Esta es una práctica común en Docker para reducir el tamaño final de la imagen y eliminar dependencias no necesarias en la etapa de producción
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Node.js/Imagenes/docker-2.PNG)
 
 <a name="item4"></a>
 # Docker-compose
