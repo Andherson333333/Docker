@@ -36,4 +36,4 @@ Para desplegarlo el aplicativo se realiza a traves de un docker-compose
 dcoker-compose up
 ```
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/Docker/blob/main/Node.js/Imagenes/docker-3.PNG)
