@@ -33,7 +33,7 @@ docker build -t node:test .
 Para desplegarlo el aplicativo se realiza a traves de un docker-compose
 
 ```
-docker-compose up
+dcoker-compose up
 ```
 
 ![Diagrama]()
