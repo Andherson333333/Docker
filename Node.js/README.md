@@ -1,3 +1,8 @@
+
+# Descripcion
+
+Esta es una aplicación web básica para administrar notas simples en la web utilizando tecnologías Javascript como Nodejs, Mongodb y otras tecnologías relacionadas.
+
 # Que es Nodejs
 
 Node.js es un entorno de ejecución de código abierto basado en el motor V8 de Google Chrome. Permite ejecutar código JavaScript en el lado del servidor, proporcionando a los desarrolladores la capacidad de construir aplicaciones escalables y eficientes. Node.js utiliza un modelo de entrada/salida no bloqueante y orientado a eventos, lo que significa que puede manejar múltiples operaciones simultáneamente sin esperar a que una operación se complete antes de pasar a la siguiente. Esta característica hace que Node.js sea especialmente adecuado para aplicaciones intensivas en E/S, como servidores web y aplicaciones de red..
