@@ -4,6 +4,15 @@
 
 Este proyecto tiene como objetivo facilitar la instalación y despliegue de SonarQube utilizando Docker. Proporciona scripts y configuraciones necesarias para configurar rápidamente un entorno de SonarQube, permitiendo a los equipos de desarrollo implementar fácilmente esta herramienta de análisis de calidad de código en sus proyectos.
 
+## Índice de Contenidos
+1. [¿Qué es SonarQube?](#qué-es-sonarqube)
+2. [Pasos de Instalación y Despliegue](#pasos-de-instalación-y-despliegue)
+   - [Creación de Directorios](#creación-de-directorios)
+   - [Creación del archivo init.sh](#creación-del-archivo-initsh)
+   - [Despliegue con Docker Compose](#despliegue-con-docker-compose)
+3. [Contribuciones](#contribuciones)
+4. [Licencia](#licencia)
+
 ## ¿Qué es SonarQube?
 
 SonarQube es una plataforma de código abierto diseñada para evaluar y analizar la calidad del código fuente en proyectos de software. Proporciona herramientas para realizar análisis estático del código, identificar problemas de calidad, y ofrecer recomendaciones para mejorar la legibilidad, el rendimiento y la seguridad del código.
