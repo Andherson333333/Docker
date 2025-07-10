@@ -1,4 +1,4 @@
-# Dockerfile Usage Guide
+# Dockerfile Usage Guide 
 
 ## Table of Contents
 * [What is a Dockerfile?](#what-is-a-dockerfile)
